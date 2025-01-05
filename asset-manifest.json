@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/transformer-viz/static/css/main.16b9fbfa.css",
+    "main.js": "/transformer-viz/static/js/main.7eec4ac4.js",
+    "index.html": "/transformer-viz/index.html",
+    "main.16b9fbfa.css.map": "/transformer-viz/static/css/main.16b9fbfa.css.map",
+    "main.7eec4ac4.js.map": "/transformer-viz/static/js/main.7eec4ac4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16b9fbfa.css",
+    "static/js/main.7eec4ac4.js"
+  ]
+}

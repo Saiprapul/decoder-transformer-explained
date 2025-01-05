@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# Decoder-Only Transformer Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Screenshot](public/screenshot.png) <!-- Add a screenshot if available -->
 
-## Available Scripts
+An interactive learning page to visualize the architecture of **decoder-only transformers**, the backbone of modern Generative AI models like ChatGPT and Claude. This project breaks down the key components of the transformer architecture, including tokenization, embedding, positional encoding, multi-head attention, and output generation.
 
-In the project directory, you can run:
+👉 [Live Demo](https://github.com/Saiprapul/transformer-viz) <!-- Add your GitHub Pages link here -->
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Tokenization**: Visualize how input text is broken down into tokens using different tokenization methods (word, subword, character).
+- **Embedding**: Understand how tokens are converted into dense vectors.
+- **Positional Encoding**: See how positional information is added to embeddings.
+- **Multi-Head Attention**: Explore how attention mechanisms work in transformers.
+- **Output Generation**: Watch how the model generates output step by step.
+- **Interactive Learning**: Toggle between different tokenization methods and see how they affect the input text.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React**: Frontend framework for building the interactive UI.
+- **TypeScript**: For type-safe and scalable code.
+- **Lucide Icons**: For clean and modern icons.
+- **GitHub Pages**: For hosting the live demo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js (v16 or higher)
+- npm (v7 or higher)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/Saiprapul/transformer-viz

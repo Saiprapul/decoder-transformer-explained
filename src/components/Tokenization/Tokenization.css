@@ -1,0 +1,85 @@
+.tokenization {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .tokenization h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .tokenization p {
+    margin: 0 0 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Method Toggle */
+  .method-toggle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .method-toggle button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .method-toggle button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  /* Input Text Box */
+  .input-box {
+    width: 100%;
+    height: 100px; /* Fixed height */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    resize: none; /* Disable manual resizing */
+    overflow-y: auto; /* Add scrollbar if content overflows */
+  }
+  
+  /* Tokenized Output */
+  .tokenized-output {
+    font-size: 14px;
+  }
+  
+  .tokens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .token {
+    padding: 5px 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .method-toggle {
+      flex-direction: column;
+    }
+  
+    .method-toggle button {
+      width: 100%;
+    }
+  }
